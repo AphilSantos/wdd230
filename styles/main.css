@@ -1,3 +1,49 @@
 body {
     background-color: #f7f7f7;
+    width: 70vw;
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    margin: -5px 0;
+}
+
+header {
+    height: 10vh;
+    display: flex;
+}
+
+header h1{
+    float: right;
+    padding: 0 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+header.section{
+    background-color: aqua;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+ul {
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    padding: 10px 30px;
+}
+
+footer.section{
+    background-color: aqua;
+    padding: 5px 20%;
+    border-radius: 10px;
+}
+
+h4 {
+    padding: 0px;
+    margin: 10px auto;
 }
