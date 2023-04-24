@@ -1,3 +1,9 @@
+html {
+    display: flex;
+    /* margin: 40px auto; */
+    justify-content: center;
+}
+
 body {
     background-color: #f7f7f7;
     width: 70vw;
