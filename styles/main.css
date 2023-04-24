@@ -30,6 +30,11 @@ header h1{
     padding: 0 20px;
     margin-top: 10px;
     text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+h1, h2, h3{
+    font-family: 'Playfair Display', serif;
 }
 
 header.section{
@@ -53,4 +58,9 @@ footer.section{
 h4 {
     padding: 0px;
     margin: 10px auto;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+p {
+    font-family: 'Source Sans Pro', sans-serif;
 }
