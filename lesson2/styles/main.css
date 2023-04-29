@@ -1,0 +1,110 @@
+html {
+    display: flex;
+    /* margin: 40px auto; */
+    justify-content: center;
+}
+
+body {
+    background-color: #f7f7f7;
+    width: 70vw;
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: auto;
+    height: 60vh;
+    border-radius: 10px;
+    margin: -5px 0;
+    object-fit: cover;
+    padding: 20px;
+}
+
+header {
+    height: 60px;
+    display: flex;
+}
+
+header h1{
+    float: right;
+    padding: 0 20px;
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+h1, h2, h3{
+    font-family: 'Playfair Display', serif;
+}
+
+header.section{
+    background-color: aqua;
+    padding: 20px;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+ul {
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    padding: 10px 30px;
+}
+
+footer.section{
+    background-color: aqua;
+    padding: 5px 10%;
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+h4 {
+    padding: 0px;
+    margin: 10px auto;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.main-div {
+    width: 60vw;
+}
+
+.assignment-section-parent {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+
+.one{
+    grid-column: 1/2;
+    border: 1px solid;
+    border-radius: 10px;
+    margin: 10px 10px;
+}
+
+.two{
+    grid-column: 2/3;
+    border: 1px solid;
+    border-radius: 10px;
+    margin: 10px 10px;
+}
+
+.three{
+    grid-column: 3/4;
+    border: 1px solid;
+    border-radius: 10px;
+    margin: 10px 10px;
+}
+
+.one,.two,.three p{
+    padding: 0 20px;
+}
+
+.assignment-section {
+    background-color: #f2f2f2; /* A light gray color that complements the glassmorphic effect */
+    background-image: linear-gradient(to bottom right, #ffffff, #f2f2f2); /* A subtle gradient that adds depth */
+}
