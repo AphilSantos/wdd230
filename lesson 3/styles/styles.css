@@ -1,4 +1,6 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 header {
     background-color: transparent;
     padding: 1rem;
@@ -21,7 +23,7 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: #EBEBEB;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
 
@@ -29,10 +31,18 @@ body {
     text-align: center;
     margin-bottom: 30px;
     color: #444;
+    font-family: 'Courier Prime', monospace;
+  }
+
+  p, a {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    letter-spacing: 1.5px;
   }
 
  .start {
     text-align: start;
+    padding-top: 30px;
   }
 
   ul {
@@ -75,6 +85,47 @@ body {
     display: flex;
   }
 
+  .colorbox-container {
+    max-height: 100px;
+    max-width: 200px;
+    border: 1px solid #2E2E2E;
+  }
+
+  .text-container{
+    text-align: center;
+    max-height: 50px;
+    height: 50px;
+    border-bottom: 1px solid #2E2E2E;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .color-container {
+    max-height: 50px;
+    height: 50px;
+  }
+
+  .color-container.blue {
+    background-color: #3498DB;
+  }
+
+  .color-container.grey {
+    background-color: #4B4B4B;
+  }
+
+  .color-container.purple {
+    background-color: #8C52FF;
+  }
+
+  .hfont {
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  .pfont {
+    font-family: 'Oswald', sans-serif;
+  }
 @media (max-width: 768px) {
     .sitemap-column {
       flex-basis: 100%;
