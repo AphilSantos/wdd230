@@ -1,0 +1,126 @@
+@media only screen and (max-width: 1024px){
+    .hamburger {
+        display: table;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+
+    main {
+        margin: 35px 0;
+    }
+
+    .header-container {
+        margin-bottom: 25px;
+    }
+
+    img {
+        width: 150px;
+        display: flex;
+      }
+    
+    .hamburger.active.bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburger.active.bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active.bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    #menu {
+        position: fixed;
+        left: -100%;
+        top: 20%;
+        gap: 0;
+        flex-direction: column;
+        background-color:aquamarine;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+    }
+
+    .nav-item {
+        margin: 16px 0;
+    }
+
+    #menu.active {
+        left: 0;
+    }
+
+    ul#social-icon {
+        flex-direction: row;
+    }
+
+    a.fa {
+        margin: 0 10px;
+        padding: 10px;
+        width: 20px;
+    }
+
+    .icon-container {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        margin: 0 20px;
+    }
+
+
+    main.main-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        align-items: center;
+        height: 160vh;
+        row-gap: 10px;
+      }
+
+        /* first */
+    .hero {
+        width: 100%;
+        grid-column: 1/3;
+        grid-row: 1/2;
+        border: 1px solid;
+    }
+
+    .newrelease {
+        width: 100%;
+        grid-column: 1/3;
+        grid-row: 2/3;
+        border: 1px solid;
+      }
+
+      /* third */
+
+
+    section.spotlights-container {
+        width: 97.56%;
+        grid-column: 1/3;
+        grid-row: 3/5;
+        border: 1px solid;
+        height: 70vh;
+        padding: 10px
+      }
+
+      .join {
+        width: 100%;
+        grid-column: 1/3;
+        grid-row: 5/6;
+        border: 1px solid;
+      }
+
+            /* second */
+    .event { 
+        width: 100%;
+        grid-column: 2/3;
+        grid-row: 6/7;
+        border: 1px solid;
+    }
+
+    .weather {
+        width: 98%;
+        grid-column: 1/2;
+        grid-row: 6/7;
+        border: 1px solid;
+    }
+}

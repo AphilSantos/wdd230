@@ -13,3 +13,19 @@ document.getElementById('just-year').textContent = new Date().toLocaleDateString
 const updateElement = document.getElementById("last-modified");
 const lastModified = new Date(document.lastModified);
 updateElement.textContent = lastModified.toLocaleString();
+
+
+//responsive nav
+
+  const hamburger = document.querySelector(".hamburger");
+  const navMenu = document.querySelector("#menu");
+
+  hamburger.addEventListener("click", () => {
+	hamburger.classList.toggle("active");
+	navMenu.classList.toggle("active");
+  })
+
+  document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click",() => {
+	hamburger.classList.remove("active");
+	navMenu.classList.remove("active");
+  } ))
