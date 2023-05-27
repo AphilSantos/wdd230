@@ -29,3 +29,13 @@ updateElement.textContent = lastModified.toLocaleString();
 	hamburger.classList.remove("active");
 	navMenu.classList.remove("active");
   } ))
+
+
+  var today = new Date();
+  var dayOfWeek = today.getDay(); // Sunday: 0, Monday: 1, Tuesday: 2, ...
+
+  if (dayOfWeek === 1 || dayOfWeek === 2) { // Show only on Monday and Tuesday
+      document.getElementById("invitation-banner").style.display = "block";
+  } else {
+      document.getElementById("invitation-banner").style.display = "none";
+  }
