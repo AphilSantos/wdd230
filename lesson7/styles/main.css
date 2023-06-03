@@ -5,18 +5,40 @@ body {
 }
 
 .image-container {
-    display: flex;
-    flex-direction: column;
+    position: relative;
+    width: 400px;
+    height: 300px;
+    margin: 20px 0;
 }
 
 img {
-    margin: 20px 0;
-    height: 300px;
-    width: 400px;
+    position: absolute;
+    top: 0;
+    left: 0;
     transition: opacity 0.5s;
     opacity: 0;
+    width: 400px;
+    height: 300px;
 }
 
 img.is-loaded {
     opacity: 1;
+}
+
+@keyframes spinner {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.loading-spinner {
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid #3498db;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spinner 2s linear infinite;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }

@@ -7,7 +7,10 @@ document.addEventListener("DOMContentLoaded", function() {
                 if (entry.isIntersecting) {
                     let lazyImage = entry.target;
                     lazyImage.src = lazyImage.dataset.src;
-                    lazyImage.onload = () => lazyImage.classList.add('is-loaded');
+                    lazyImage.onload = () => {
+                        lazyImage.classList.add('is-loaded');
+                        lazyImage.previousSibling.style.display = 'none'; // hide the spinner
+                    }
                     lazyImageObserver.unobserve(lazyImage);
                 }
             });
