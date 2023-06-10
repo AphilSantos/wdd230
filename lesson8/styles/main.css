@@ -39,10 +39,6 @@ table {
     border-spacing: 0;
 }
 
-.background-color-eee {
-    background-color: #eee;
-}
-
 .paragraph-cell {
     border: 0px;
     font-size: 12px;
@@ -54,4 +50,8 @@ table {
     align-items: center;
     justify-content: center;
     height: 100%;
+}
+
+tr:nth-child(even) {
+    background-color: #eee;
 }
