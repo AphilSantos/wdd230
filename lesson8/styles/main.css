@@ -52,6 +52,6 @@ table {
     height: 100%;
 }
 
-tr:nth-child(even) {
+tr:nth-child(odd) {
     background-color: #eee;
 }
