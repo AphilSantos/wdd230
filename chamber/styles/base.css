@@ -168,9 +168,378 @@ body {
     font-family: 'Courier New', Courier, monospace;
   }
 
+  #banner {
+    text-align: center;
+  }
+
   .pfont {
     font-family: 'Oswald', sans-serif;
   }
+
+  .discover {
+    display: flex;
+    justify-content: center;
+}
+
+.discover picture{
+  margin: 40px;
+  transition: 300ms;
+  border: 1px solid #2980b9;
+  object-fit: cover;
+}
+
+div#table {
+  display: flex;
+  justify-content: center;
+}
+
+fieldset {
+  background: rgba(255, 255, 255, 0.61);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.1px);
+  -webkit-backdrop-filter: blur(6.1px);
+  border: 1px solid rgba(255, 255, 255, 0.73);
+  padding: 40px;
+}
+
+* {
+  /* Change your font family */
+  font-family: sans-serif;
+}
+
+.content-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  min-width: 400px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table thead tr {
+  background-color: #55ACEE;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+  padding: 12px 15px;
+}
+
+.content-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+.content-table tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+
+#joinPage {
+  padding: 50px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+
+/* CSS for the form container */
+#form {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* CSS for the form title */
+#form h3 {
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+/* CSS for the form container */
+#form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+/* CSS for the form title */
+#form h3 {
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+/* CSS for the form fields */
+#form label {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  margin-bottom: 10px;
+}
+
+#form label span {
+  font-weight: bold;
+}
+
+#form input[type="text"],
+#form input[type="email"],
+#form input[type="tel"],
+#form textarea,
+#form select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#form select {
+  height: 32px;
+}
+
+/* CSS for the required form fields */
+#form input[required],
+#form textarea[required],
+#form select[required] {
+  border-color: red;
+}
+
+/* CSS for the form submit button */
+#form .submitBtn {
+  display: block;
+  width: 92%;
+  padding: 10px;
+  background-color: #55ACEE;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#form .submitBtn:hover {
+  background-color: #45a049;
+}
+
+#contact-background {
+    background: #f4f4f4;
+    padding: 50px 0;
+}
+
+#contact-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.team, .working, #contactForm {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2 span {
+    display: block;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.teamMember {
+    margin-bottom: 20px;
+}
+
+.teamMember img {
+    width: 100%;
+    height: auto;
+}
+
+.teamMember h4, .teamMember h5, .teamMember p {
+    margin: 10px 0;
+}
+
+.teamMember h4 {
+    color: #333;
+    font-size: 18px;
+}
+
+.teamMember h5 {
+    color: #666;
+    font-size: 16px;
+}
+
+.teamMember p {
+    color: #999;
+    font-size: 14px;
+}
+
+.working h2, .working p {
+    margin: 10px 0;
+}
+
+#contactForm h2 {
+    margin-bottom: 20px;
+}
+
+#contactForm label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#contactForm input[type=text], 
+#contactForm input[type=email], 
+#contactForm input[type=tel], 
+#contactForm textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#contactForm .submitBtn {
+    display: inline-block;
+    background: #009578;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#contactForm .submitBtn:hover {
+    background: #00765e;
+}
+
+/*contact page*/
+
+#contact-background {
+  background: #f4f4f4;
+  padding: 50px 0;
+}
+
+#contact-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.team, .working, #contactForm {
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.team, #contactForm {
+  grid-row: 1;
+}
+
+.working {
+  grid-row: 2;
+  grid-column: span 2;
+}
+
+h2 span {
+  display: block;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.teamMember {
+  margin-bottom: 20px;
+}
+
+.teamMember img {
+  width: 100%;
+  height: auto;
+}
+
+.teamMember h4, .teamMember h5, .teamMember p {
+  margin: 10px 0;
+}
+
+.teamMember h4 {
+  color: #333;
+  font-size: 18px;
+}
+
+.teamMember h5 {
+  color: #666;
+  font-size: 16px;
+}
+
+.teamMember p {
+  color: #999;
+  font-size: 14px;
+}
+
+.working h2, .working p {
+  margin: 10px 0;
+}
+
+#contactForm h2 {
+  margin-bottom: 20px;
+}
+
+#contactForm label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#contactForm input[type=text], 
+#contactForm input[type=email], 
+#contactForm input[type=tel], 
+#contactForm textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#contactForm .submitBtn {
+  display: inline-block;
+  background: #009578;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+#contactForm .submitBtn:hover {
+  background: #00765e;
+}
+
+.discover picture:hover{
+  scale: 1.1;
+  transition: 300ms;
+}
+
+.discover p{
+  margin: 40px;
+}
+
+.image-caption{
+  margin-top: 40px;
+}
 
 .fa {
   padding: 20px;
