@@ -257,6 +257,83 @@ fieldset {
   border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+  gap: 20px;
+}
+
+.cards section {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  width: 100%;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.cards img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.cards h3 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.cards p {
+  margin-bottom: 10px;
+}
+
+.cards a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+/* Responsive Design */
+@media (min-width: 600px) {
+  .cards section {
+      width: calc(50% - 20px);
+  }
+}
+
+@media (min-width: 900px) {
+  .cards section {
+      width: calc(33% - 20px);
+  }
+}
+
+/* List view style */
+.cards.list {
+  flex-direction: column;
+}
+
+.cards.list section {
+  width: 100%;
+  max-width: none;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.cards.list img {
+  margin-right: 20px;
+}
+
+.cards.list h3, 
+.cards.list p, 
+.cards.list a {
+  text-align: left;
+}
+
+
 
 /* CSS for the form container */
 #form {
