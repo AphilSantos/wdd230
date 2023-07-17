@@ -1,4 +1,4 @@
-const businessDir = '/json/data.json';
+const businessDir = 'https://aphilsantos.github.io/wdd230/chamber/scripts/json/data.json';
 
 getBusinessData();
 
