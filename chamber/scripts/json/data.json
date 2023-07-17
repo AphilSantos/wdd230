@@ -1,0 +1,103 @@
+{
+    "business": [
+        {
+            "name": "Company One",
+            "logo": "/path/to/logo1.png",
+            "address": [
+                "123 Main Street",
+                "Anytown, AT 12345"
+            ],
+            "phone": "+1 (123) 456-7890",
+            "web": "http://www.companyone.com",
+            "membershipLevel": "gold"
+        },
+        {
+            "name": "Company Two",
+            "logo": "/path/to/logo2.png",
+            "address": [
+                "456 Second Street",
+                "Anytown, AT 12345"
+            ],
+            "phone": "+1 (234) 567-8901",
+            "web": "http://www.companytwo.com",
+            "membershipLevel": "silver"
+        },
+        {
+            "name": "Company Three",
+            "logo": "/path/to/logo3.png",
+            "address": [
+                "789 Third Street",
+                "Anytown, AT 12345"
+            ],
+            "phone": "+1 (345) 678-9012",
+            "web": "http://www.companythree.com",
+            "membershipLevel": "bronze"
+        },
+        {
+            "name": "Company Four",
+            "logo": "/path/to/logo4.png",
+            "address": [
+                "012 Fourth Street",
+                "Anytown, AT 12345"
+            ],
+            "phone": "+1 (456) 789-0123",
+            "web": "http://www.companyfour.com",
+            "membershipLevel": "gold"
+        },
+        {
+            "name": "Company Five",
+            "logo": "/path/to/logo5.png",
+            "address": [
+                "345 Fifth Street",
+                "Anytown, AT 12345"
+            ],
+            "phone": "+1 (567) 890-1234",
+            "web": "http://www.companyfive.com",
+            "membershipLevel": "silver"
+        },
+        {
+            "name": "Company Six",
+            "logo": "/path/to/logo6.png",
+            "address": [
+                "678 Sixth Street",
+                "Anytown, AT 12345"
+            ],
+            "phone": "+1 (678) 901-2345",
+            "web": "http://www.companysix.com",
+            "membershipLevel": "bronze"
+        },
+        {
+            "name": "Company Seven",
+            "logo": "/path/to/logo7.png",
+            "address": [
+                "901 Seventh Street",
+                "Anytown, AT 12345"
+            ],
+            "phone": "+1 (789) 012-3456",
+            "web": "http://www.companyseven.com",
+            "membershipLevel": "gold"
+        },
+        {
+            "name": "Company Eight",
+            "logo": "/path/to/logo8.png",
+            "address": [
+                "234 Eighth Street",
+                "Anytown, AT 12345"
+            ],
+            "phone": "+1 (890) 123-4567",
+            "web": "http://www.companyeight.com",
+            "membershipLevel": "silver"
+        },
+        {
+            "name": "Company Nine",
+            "logo": "/path/to/logo9.png",
+            "address": [
+                "567 Ninth Street",
+                "Anytown, AT 12345"
+            ],
+            "phone": "+1 (901) 234-5678",
+            "web": "http://www.companynine.com",
+            "membershipLevel": "bronze"
+        }
+    ]
+}

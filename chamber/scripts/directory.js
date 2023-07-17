@@ -1,11 +1,11 @@
-const businessDir = 'json/data.json';
+const businessDir = '/json/data.json';
 
 getBusinessData();
 
 async function getBusinessData(){
     const response = await fetch(businessDir);
     const data = await response.json();
-    
+    console.log(data.business);
     displayBusiness(data.business);
 }
 const displayBusiness = (business) => {
