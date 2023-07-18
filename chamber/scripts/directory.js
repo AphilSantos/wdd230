@@ -8,6 +8,7 @@ async function getBusinessData(){
     console.log(data.business);
     displayBusiness(data.business);
 }
+
 const displayBusiness = (business) => {
     const cards = document.querySelector("div.cards");
     business.forEach((item) => {
@@ -46,24 +47,35 @@ const displayBusiness = (business) => {
         
         cards.appendChild(card);
     });
+
+    const gridbutton = document.querySelector("#gridButton");
+    const listbutton = document.querySelector("#listButton");
+    const display = document.querySelector("article");
+    const allCards = document.querySelector(".cards");
+
+    listbutton.addEventListener("click", () => {
+        display.classList.add("list");
+        const innerContents = document.querySelectorAll(".innerCardContent");
+        const logoImages = document.querySelectorAll(".businessImage");
+        innerContents.forEach(innerContent => {
+            innerContent.classList.add("list");
+        });
+        logoImages.forEach(logoImage => {
+            logoImage.style.display = 'none';
+        });
+        allCards.classList.add("list");
+    });
+
+    gridbutton.addEventListener("click", () => {
+        display.classList.remove("list");
+        const innerContents = document.querySelectorAll(".innerCardContent");
+        const logoImages = document.querySelectorAll(".businessImage");
+        innerContents.forEach(innerContent => {
+            innerContent.classList.remove("list");
+        });
+        logoImages.forEach(logoImage => {
+            logoImage.style.display = 'block';
+        });
+        allCards.classList.remove("list");
+    });
 }
-//buttons to change views
-const gridbutton = document.querySelector("#gridButton");
-const listbutton = document.querySelector("#listButton");
-const display = document.querySelector("article");
-const logoImage = document.querySelector(".businessImage");
-
-const innerContent123 = document.querySelector(".innerCardContent");
-
-//add class 'list' to article
-listbutton.addEventListener("click", () => {
-    display.classList.add("list");
-    innerContent123.classList.add("list");
-    logoImage.style.display = 'none';
-    
-});
-//remove class 'list' from article
-gridbutton.addEventListener("click", () => {
-    display.classList.remove("list");
-    innerContent123.classList.remove("list");
-})

@@ -319,7 +319,7 @@ fieldset {
   width: 100%;
   max-width: none;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: space-evenly;
   align-items: center;
 }
 
