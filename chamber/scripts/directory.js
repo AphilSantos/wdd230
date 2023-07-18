@@ -19,6 +19,14 @@ const displayBusiness = (business) => {
         let phone = document.createElement("p");
         let web = document.createElement("a");
 
+        card.className.add("innerCardContent");
+        logo.className.add("businessImage");
+        name.className.add("businessName");
+        address1.className.add("line1");
+        address2.className.add("line2");
+        phone.className.add("phoneNumber");
+        web.className.add("webAddress");
+
         logo.setAttribute("src", item.logo);
         logo.setAttribute("alt", `Logo of ${item.name}`);
         logo.setAttribute("loading", "lazy");        
@@ -40,12 +48,13 @@ const displayBusiness = (business) => {
     });
 }
 //buttons to change views
-const gridbutton = document.querySelector("#grid");
-const listbutton = document.querySelector("#list");
+const gridbutton = document.querySelector("#gridButton");
+const listbutton = document.querySelector("#listButton");
 const display = document.querySelector("article");
 //add class 'list' to article
 listbutton.addEventListener("click", () => {
     display.classList.add("list");
+    console.log(clicked);
 });
 //remove class 'list' from article
 gridbutton.addEventListener("click", () => {
