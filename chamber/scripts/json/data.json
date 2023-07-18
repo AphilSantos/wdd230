@@ -89,14 +89,14 @@
             "membershipLevel": "silver"
         },
         {
-            "name": "Church of Jesus Christ of Latter-day Saints",
+            "name": "ShopSpree",
             "logo": "/images/to/logo9.png",
             "address": [
                 "567 Ninth Street",
                 "Anytown, AT 12345"
             ],
             "phone": "+1 (901) 234-5678",
-            "web": "http://www.churchofjesuschrist.org",
+            "web": "http://www.shopspree.org",
             "membershipLevel": "bronze"
         }
     ]
