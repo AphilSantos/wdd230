@@ -2,7 +2,7 @@
     "business": [
         {
             "name": "Study First",
-            "logo": "/images/to/logo1.png",
+            "logo": "https://raw.githubusercontent.com/AphilSantos/wdd230/main/chamber/scripts/images/to/logo1.png",
             "address": [
                 "123 Main Street",
                 "Anytown, AT 12345"
@@ -13,7 +13,7 @@
         },
         {
             "name": "MaxOne Deliveries",
-            "logo": "/images/to/logo2.png",
+            "logo": "https://raw.githubusercontent.com/AphilSantos/wdd230/main/chamber/scripts/images/to/logo2.png",
             "address": [
                 "456 Second Street",
                 "Anytown, AT 12345"
@@ -24,7 +24,7 @@
         },
         {
             "name": "IHC Designs",
-            "logo": "/images/to/logo3.png",
+            "logo": "https://raw.githubusercontent.com/AphilSantos/wdd230/main/chamber/scripts/images/to/logo3.png",
             "address": [
                 "789 Third Street",
                 "Anytown, AT 12345"
@@ -35,7 +35,7 @@
         },
         {
             "name": "ForgetMeNot Jewelries",
-            "logo": "/images/to/logo4.png",
+            "logo": "https://raw.githubusercontent.com/AphilSantos/wdd230/main/chamber/scripts/images/to/logo4.png",
             "address": [
                 "012 Fourth Street",
                 "Anytown, AT 12345"
@@ -46,7 +46,7 @@
         },
         {
             "name": "Pasta and More",
-            "logo": "/images/to/logo5.png",
+            "logo": "https://raw.githubusercontent.com/AphilSantos/wdd230/main/chamber/scripts/images/to/logo5.png",
             "address": [
                 "345 Fifth Street",
                 "Anytown, AT 12345"
@@ -57,7 +57,7 @@
         },
         {
             "name": "Liceo de Cagayan University",
-            "logo": "/images/to/logo6.png",
+            "logo": "https://raw.githubusercontent.com/AphilSantos/wdd230/main/chamber/scripts/images/to/logo6.png",
             "address": [
                 "678 Sixth Street",
                 "Anytown, AT 12345"
@@ -68,7 +68,7 @@
         },
         {
             "name": "Winter in CDO",
-            "logo": "/images/to/logo7.png",
+            "logo": "https://raw.githubusercontent.com/AphilSantos/wdd230/main/chamber/scripts/images/to/logo7.png",
             "address": [
                 "901 Seventh Street",
                 "Anytown, AT 12345"
@@ -79,7 +79,7 @@
         },
         {
             "name": "Aaron Santos",
-            "logo": "/images/to/logo8.png",
+            "logo": "https://raw.githubusercontent.com/AphilSantos/wdd230/main/chamber/scripts/images/to/logo8.png",
             "address": [
                 "234 Eighth Street",
                 "Anytown, AT 12345"
@@ -90,7 +90,7 @@
         },
         {
             "name": "ShopSpree",
-            "logo": "/images/to/logo9.png",
+            "logo": "https://raw.githubusercontent.com/AphilSantos/wdd230/main/chamber/scripts/images/to/logo9.png",
             "address": [
                 "567 Ninth Street",
                 "Anytown, AT 12345"
