@@ -19,13 +19,13 @@ const displayBusiness = (business) => {
         let phone = document.createElement("p");
         let web = document.createElement("a");
 
-        card.className.add("innerCardContent");
-        logo.className.add("businessImage");
-        name.className.add("businessName");
-        address1.className.add("line1");
-        address2.className.add("line2");
-        phone.className.add("phoneNumber");
-        web.className.add("webAddress");
+        card.classList.add("innerCardContent");
+        logo.classList.add("businessImage");
+        name.classList.add("businessName");
+        address1.classList.add("line1");
+        address2.classList.add("line2");
+        phone.classList.add("phoneNumber");
+        web.classList.add("webAddress");
 
         logo.setAttribute("src", item.logo);
         logo.setAttribute("alt", `Logo of ${item.name}`);
@@ -51,12 +51,19 @@ const displayBusiness = (business) => {
 const gridbutton = document.querySelector("#gridButton");
 const listbutton = document.querySelector("#listButton");
 const display = document.querySelector("article");
+const logoImage = document.querySelector(".businessImage");
+
+const innerContent123 = document.querySelector(".innerCardContent");
+
 //add class 'list' to article
 listbutton.addEventListener("click", () => {
     display.classList.add("list");
-    console.log(clicked);
+    innerContent123.classList.add("list");
+    logoImage.style.display = 'none';
+    
 });
 //remove class 'list' from article
 gridbutton.addEventListener("click", () => {
     display.classList.remove("list");
+    innerContent123.classList.remove("list");
 })
