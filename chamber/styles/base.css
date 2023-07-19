@@ -777,6 +777,11 @@ section.spotlights-container {
   background-color: #ababab;
 }
 
+.climate-logo{
+  margin: 0 auto;
+  max-width: 60px;
+}
+
 .newrelease p {
   padding: 20px;
   overflow: hidden;
