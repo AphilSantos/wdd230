@@ -88,4 +88,8 @@
     grid-row: 4/5;
     border: 1px solid;
   }
+
+  .spotlight-logo img {
+    display: none;
+  }
 }

@@ -53,7 +53,7 @@
             ],
             "phone": "+1 (567) 890-1234",
             "web": "http://www.pastaandmore.com",
-            "membershipLevel": "silver"
+            "membershipLevel": "gold"
         },
         {
             "name": "Liceo de Cagayan University",
@@ -64,7 +64,7 @@
             ],
             "phone": "+1 (678) 901-2345",
             "web": "http://www.ldcu.com",
-            "membershipLevel": "bronze"
+            "membershipLevel": "gold"
         },
         {
             "name": "Winter in CDO",
@@ -86,7 +86,7 @@
             ],
             "phone": "+1 (890) 123-4567",
             "web": "http://www.aphilvs.com",
-            "membershipLevel": "silver"
+            "membershipLevel": "gold"
         },
         {
             "name": "ShopSpree",

@@ -64,26 +64,43 @@
     </section>
 
     <main class="main-container">
-        <div class="event"> Event</div>
+        <div class="event"> 
+            <h2>Announcement!</h2>
+            <p>MaxOne Deliveries will be holding a success webinar August 15, 2023 1400 PST. <br> Come and join us to learn and apply their success into our own stories. Sign Up <a href="https://aphilsantos.github.io/wdd230/chamber/join.html" target="_blank">here</a>.</p>
+        </div>
         <div class="hero">
-            <img src="images/wdd230-org.jpg" alt="site hero" class="fullWidth">
+            <div class="hero-content">
+            <!-- <img src="images/cdo-overlooking.png" alt="site hero" class="fullWidth"> -->
+            <h2 class="">Welcome to the City of Golden Friendship!</h2>
+            <a class="heroCTA" href="https://aphilsantos.github.io/wdd230/chamber/join.html" target="_blank">Purchase A Membership Here!</a>
+            </div>
         </div>
         <section class="spotlights-container">
             <div class="spotlight1">
-                <img class="fullWidth" src="images/spotlight-1.png" alt="delivery-ad">
+
             </div>
             <div class="spotlight2">
-                <img class="fullWidth" src="images/spotlight-2.png" alt="designer-ad">
+
             </div>
             <div class="spotlight3">
-                <img class="fullWidth" src="images/spotlight-3.png" alt="school-ad">
+
             </div>
         </section>
-        <div class="weather"> weather</div>
-        <div class="join">Join</div>
+        <div class="weather"> 
+            <h2 class="location"></h2>
+            <h3 class="temperature"></h3>
+            <h3 class="description"></h3>
+            <h3 class="windspeed"></h3>
+            <h3 class="windchill"></h3>
+            <h3 class="climate"></h3> 
+        </div>
+        <div class="join"><a href="aphilsantos.github.io/wdd230/chamber/join.html" class="anotherLink">Follow Us</a></div>
+        
         <div class="newrelease"> 
             <h3>New Release</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque leo tellus, commodo at facilisis sed, blandit nec tellus. Ut auctor tellus pulvinar feugiat iaculis. Aliquam eget laoreet orci, quis congue justo. Sed vel tortor finibus, ultricies quam vitae, volutpat velit. Nam quis arcu magna.</p>
+            <p>Version Release Notes - v1.0.0<br>
+
+                We are pleased to announce the release of version 1.0.0 of our spotlight showcase feature. This release introduces the ability to display three different businesses with gold membership levels in the spotlights section. Each time the page is loaded, three unique businesses will be showcased, providing a dynamic and engaging experience for users.</p>
         </div>
     </main>
 
@@ -109,5 +126,8 @@
         </div>
     </footer>
     <script src="scripts/main.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/spotlight.js"></script>
+    <script src="scripts/json/data.json"></script>
 </body>
 </html>
