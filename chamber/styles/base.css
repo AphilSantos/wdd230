@@ -407,7 +407,7 @@ fieldset {
 }
 
 #form .submitBtn:hover {
-  background-color: #45a049;
+  background-color: #55ACEE;
 }
 
 #contact-background {
@@ -489,7 +489,7 @@ h2 span {
 
 #contactForm .submitBtn {
     display: inline-block;
-    background: #009578;
+    background: #2980b9;
     color: #fff;
     padding: 10px 20px;
     border-radius: 4px;
@@ -499,7 +499,7 @@ h2 span {
 }
 
 #contactForm .submitBtn:hover {
-    background: #00765e;
+    background: #007BFF;
 }
 
 /*contact page*/
@@ -592,7 +592,7 @@ h2 span {
 
 #contactForm .submitBtn {
   display: inline-block;
-  background: #009578;
+  background: #3498DB;
   color: #fff;
   padding: 10px 20px;
   border-radius: 4px;
@@ -602,7 +602,7 @@ h2 span {
 }
 
 #contactForm .submitBtn:hover {
-  background: #00765e;
+  background: #007BFF;
 }
 
 .discover picture:hover{
